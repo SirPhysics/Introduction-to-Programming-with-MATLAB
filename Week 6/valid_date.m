@@ -35,7 +35,7 @@ if rem(y,4) == 0 && rem(y,100) ~= 0 || rem(y,4) == 0 && rem(y,100) == 0 && rem(y
     else 
         valid = false;
     end
-else if rem(y,4) ~= 0 || rem(y,4) == 0 && rem(y,100) == 0 && rem(y,400) ~= 0
+elseif rem(y,4) ~= 0 || rem(y,4) == 0 && rem(y,100) == 0 && rem(y,400) ~= 0
         if ismember(m,m1) && ismember(d,d1)
             valid = true;
         elseif ismember(m,m2) && ismember(d,d2)
